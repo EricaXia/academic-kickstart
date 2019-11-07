@@ -40,3 +40,26 @@ Copyright 2017-present [George Cushen](https://georgecushen.com).
 Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
 
 [![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+
+
+## Personal notes:
+### How to view site changes:
+1. Go to root folder of your site (ericaxia.github.io)
+2. type `hugo server`
+
+### How to publish site changes to Github
+1. Regenerate site HTML by running `hugo` in root folder
+2. Go to public folder (ericaxia.github.io/public) and run:
+`git add .`
+`git commit -m "website update msg"`
+`git push origin master`
+
+Then change can be viewed on https://ericaxia.github.io/
+
+### How to add a new project
+In the root folder, run
+`hugo new  --kind project project/my-project-name`
+
+### How to add a new blog post
+In the root folder, run
+`hugo new  --kind post post/my-article-name`

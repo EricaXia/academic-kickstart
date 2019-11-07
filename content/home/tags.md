@@ -1,5 +1,7 @@
 +++
 # Tag Cloud widget.
+# add `tags = ["A Tag", "Another Tag"]` to beginning of a page to tag it
+
 widget = "tag_cloud"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
