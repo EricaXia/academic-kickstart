@@ -30,3 +30,4 @@ projects: []
 
 # Hello world!
 My first blog post on this site.
+I am a talking cat. My owner is a witch named Hazel. We live in green forest together. My fur is black as night.
