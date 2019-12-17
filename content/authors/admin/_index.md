@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Student
+role: Graduate Student
 
 # Organizations/Affiliations
 organizations:
@@ -18,18 +18,19 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include NLP, data mining, and machine learning applications.
+bio: My interests include NLP, data mining, visualization, and machine learning applications.
 
 interests:
 - Machine Learning
-- Computational Linguistics
-- Information Retrieval
+- Natural Language Processing
+- Information Extraction
+
 
 education:
   courses:
   - course: M.S. in Applied Data Science 
     institution: University of Southern California
-    year: 2021
+    year: exp. 2021
   - course: B.A. in Statistics and Economics
     institution: University of California, Davis
     year: 2019
@@ -64,6 +65,6 @@ email: ""
 #- Visitors
 ---
 
-Erica is a master's student studying Applied Data Science at USC. Her research interests include machine learning, Natural Language Processing, and more. 
+Erica is studying for a master's degree in Applied Data Science at USC. Her research interests include machine learning, natural language processing, graph analytics, and more. 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
