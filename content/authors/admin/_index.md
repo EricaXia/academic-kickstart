@@ -65,6 +65,5 @@ email: ""
 #- Visitors
 ---
 
-Erica is studying for a master's degree in Applied Data Science at USC. Her research interests include machine learning, natural language processing, graph analytics, and more. 
+Erica is studying for a master's degree in Applied Data Science at USC. Her research interests include machine learning, natural language processing, social media analytics, and more. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
