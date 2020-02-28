@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Data Science 
+  - course: M.S. in Applied Data Science 
     institution: University of Southern California
     year: exp. 2021
   - course: B.A. in Statistics and Economics
@@ -65,5 +65,5 @@ email: ""
 #- Visitors
 ---
 
-Hi there! My name is Erica Xia, and I am studying for a M.S. in Applied Data Science at University of Southern California (USC) in sunny Los Angeles. My research interests include machine learning, natural language processing, social media analytics, and more. 
+Hi there! My name is Erica Xia, and I am studying for a M.S. in Data Science at University of Southern California (USC) in sunny Los Angeles. My research interests include machine learning, natural language processing, social media analytics, and more. 
 
