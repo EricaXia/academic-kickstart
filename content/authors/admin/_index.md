@@ -65,5 +65,5 @@ email: ""
 #- Visitors
 ---
 
-Erica is studying for a master's degree in Applied Data Science at USC. Her research interests include machine learning, natural language processing, social media analytics, and more. 
+Hi there! My name is Erica Xia, and I am studying for a M.S. in Applied Data Science at University of Southern California (USC) in sunny Los Angeles. My research interests include machine learning, natural language processing, social media analytics, and more. 
 
