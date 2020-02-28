@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Applied Data Science 
+  - course: M.S. in Data Science 
     institution: University of Southern California
     year: exp. 2021
   - course: B.A. in Statistics and Economics
