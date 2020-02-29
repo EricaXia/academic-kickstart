@@ -18,12 +18,13 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include NLP, data mining, visualization, and machine learning applications.
+bio: 
 
 interests:
 - Machine Learning
 - Natural Language Processing
-- Information Extraction
+- Web Information Extraction
+- Predictive Modeling
 
 
 education:
