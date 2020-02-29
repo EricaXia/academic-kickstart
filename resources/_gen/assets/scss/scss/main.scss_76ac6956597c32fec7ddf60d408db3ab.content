@@ -6999,7 +6999,7 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
-  background-color: #FFFEF8;
+  background-color: #FFFFFF;
   margin-top: 70px;
   /* Offset body content by navbar height. */
   padding-top: 0;
@@ -7190,7 +7190,7 @@ small,
  *  Modals.
  **************************************************/
 .modal-content {
-  background: #FFFEF8; }
+  background: #FFFFFF; }
 
 .modal-title {
   margin: 0;
@@ -7740,7 +7740,7 @@ nav#navbar-main li.nav-item {
 .search-results {
   transform: scale(0);
   -webkit-transform: scale(0);
-  background-color: #FFFEF8;
+  background-color: #FFFFFF;
   bottom: 0;
   left: 0;
   right: 0;
@@ -7779,7 +7779,7 @@ nav#navbar-main li.nav-item {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #FFFEF8;
+  background-color: #FFFFFF;
   padding-top: 2rem;
   padding-bottom: 1rem; }
 
@@ -8189,7 +8189,7 @@ ul.share li:hover i {
     opacity: 1; } }
 
 .home-section {
-  background-color: #FFFEF8;
+  background-color: #FFFFFF;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s; }
@@ -8242,7 +8242,7 @@ ul.share li:hover i {
   padding-top: 50px; }
 
 .home-section:nth-of-type(even) {
-  background-color: #FBF0E5; }
+  background-color: #fcf6e8; }
 
 .dark .home-section {
   background-color: #272935; }
@@ -8445,7 +8445,7 @@ ul.network-icon {
   font-size: 2rem; }
 
 ul.ul-interests li {
-  font-size: 1rem; }
+  font-size: 0.85rem; }
 
 ul.ul-edu {
   list-style: none; }
@@ -8458,10 +8458,10 @@ ul.ul-edu li .description p {
   margin: 0; }
 
 ul.ul-edu li .description p.course {
-  font-size: 1rem; }
+  font-size: 0.85rem; }
 
 ul.ul-edu li .description p.institution {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: rgba(0, 0, 0, 0.6); }
 
 /*************************************************
