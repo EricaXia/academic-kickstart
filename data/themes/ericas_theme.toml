@@ -14,8 +14,8 @@ menu_text_active = "#00828B"
 menu_title = "#fff"
 
 # Backgrounds
-background = "#FFFEF8"
-home_section_odd = "#FFFEF8"
-home_section_even = "#FBF0E5"
+background = "#FFFFFF"
+home_section_odd = "#FFFFFF"
+home_section_even =  "#FCEED1"
 
 font = "rose"
