@@ -63,7 +63,17 @@ email: ""
 #user_groups:
 #- Researchers
 #- Visitors
+
+# Personal Branding/Storytelling stuff 
+# Concise, provactive, compelling
+# Don't be afraid to be creative and express more personal/personable side of yourself
 ---
 
-Hi there! My name is Erica Xia, and I am studying for a M.S. in Data Science at University of Southern California (USC) in sunny Los Angeles. My research interests include machine learning, natural language processing, social media analytics, and more. 
+Hi there! My name is Erica Xia, and I'm studying for a M.S. in Data Science at University of Southern California (USC) in sunny Los Angeles.
+
+Creatively, resourcefully, and analytically, I strive to discover and create practical solutions for today's data-driven world. Extracting insights and telling stories with data is my passion. With a flexible, learning-focused mindset, I enjoy mastering new skills and tools in the ever-changing landscape of technology.
+
+My research interests include machine learning, natural language processing, social media analytics, and more. My previous projects are documented on this website.
+
+When I'm not engaged in projects or classes, you might find me playing classical guitar or volunteering at my local animal shelter.
 
