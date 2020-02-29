@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Web App: Prediction of Animal Shelter Outcomes"
+title: "Flask Web App: Prediction of Animal Shelter Outcomes"
 summary: ""
 authors: []
 tags: ['NLP', 'Logistic Regression', 'Flask', 'Web Application']
 categories: []
-date: 2019-11-06T10:42:05-08:00
+date: 2019-12-06T10:42:05-08:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -40,13 +40,11 @@ url_video: ""
 slides: ""
 ---
 
-[<img src="https://github.com/EricaXia/shelter/raw/master/imgs/rescue-animals-and-shelter-pups.jpg">](https://animal-shelter-prediction.herokuapp.com)
-### EDA and Machine Learning Modeling Project
+![](https://github.com/EricaXia/shelter/raw/master/imgs/rescue-animals-and-shelter-pups.jpg)
+### EDA and Logistic Regression Modeling Project
 ## [**View the app here**](https://animal-shelter-prediction.herokuapp.com)
 
 ---
-[Data source: Sonoma County Animal Shelter Data](https://data.sonomacounty.ca.gov/Government/Animal-Shelter-Intake-and-Outcome/924a-vesw)
-<br>
 
 **Description:** 
 This project aims to explore animal shelter outcomes for pets given a dataset provided by Sonoma County. Some initial questions I have : 
@@ -54,18 +52,16 @@ This project aims to explore animal shelter outcomes for pets given a dataset pr
 2. What are common characteristics of pets who are being adopted or euthanized?
 3. How can we improve animal shelter outcomes?
 
+[Data source: Sonoma County Animal Shelter Data](https://data.sonomacounty.ca.gov/Government/Animal-Shelter-Intake-and-Outcome/924a-vesw)
+
 ---
 
-<h2>Table of Contents</h2>
+#### Table of Contents
 
-[1. Data Cleaning](#1-data-cleaning)
-<br>
-[2. Visualization](#2-visualizations)
-<br>
-[3. Modeling & Analysis](#3-modeling-and-analysis)
-<br>
-[4. Web App Deployment to Heroku](#4-web-app-deployment)
-<br>
+1. [Data Cleaning](#1-data-cleaning)
+2. [Visualization](#2-visualizations)
+3. [Modeling & Analysis](#3-modeling-and-analysis)
+4. [Web App Deployment to Heroku](#4-web-app-deployment)
 ---
 
 ## 1. Data Cleaning 
@@ -80,36 +76,32 @@ Some of the other column classes, such as "Intake Condition" have values merged 
 
 After cleaning and feature engineering, we have a dataset of 7,710 observations and 11 features to work with. Here's what the head of the dataset looks like when finished:
 
-<img src="https://github.com/EricaXia/shelter/raw/master/imgs/eda1.PNG">
+![](https://github.com/EricaXia/shelter/raw/master/imgs/eda1.PNG)
 
-
-<br>
 
 ## 2. Visualizations
 
 After cleaning, we can run some basic Exploratory Data Analysis to investigate and better understand our data. 
 
 - What's the count of animals being adopted or not?
-<br>
-<img src= "https://github.com/EricaXia/shelter/raw/master/imgs/eda0.PNG">
+
+![](https://github.com/EricaXia/shelter/raw/master/imgs/eda0.PNG)
 
 From the normalized value counts of the dataset, we have about 60/40 ratio of animals being adopted/euthanized.
 
 - What's the distribution of animal age by outcome type?
-<br>
-<img src="https://github.com/EricaXia/shelter/raw/master/imgs/eda3.PNG">
+
+![](https://github.com/EricaXia/shelter/raw/master/imgs/eda3.PNG)
 
 On average, euthanized animals have higher average ages. Adopted animals tend to be at younger ages. The distributions both still seem to be right skewed, since most animals won't live as long as twenty years old, and most animals who come into the shelter are of younger age.
 
 - What's the count of animals by type (cat or dog) being adopted?
-<br>
-<img src="https://github.com/EricaXia/shelter/raw/master/imgs/eda4.PNG">
+
+![](https://github.com/EricaXia/shelter/raw/master/imgs/eda4.PNG)
 
 There's a slightly greater number of cats than dogs overall at the shelter. Thus, more cats get adopted and euthanized compared to dogs. Both cats and dogs get adopted at about the same ratio to total cats and dogs (70% adoption rate).
 
-
-<br>
-
+<br />
 ## 3. Modeling and Analysis
 
 ### 3.1. One Hot Encoding (Categorical) and Standardizing (Numerical)
@@ -140,24 +132,23 @@ print("model score: %.3f" % clf.score(X_test, y_test))
 prob = clf.predict_proba(X_test)[:,1]
 
 ```
-<br>
 
 As a final visual, we can view the coefficients most positively and negatively correlated with adoption chance.
-<br>
-<img src="https://github.com/EricaXia/shelter/raw/master/imgs/eda_last.PNG">
+
+![](https://github.com/EricaXia/shelter/raw/master/imgs/eda_last.PNG)
 
 The features most strongly impacting adoption chances are animal health. Healthy animals are likely to be adopted, while untreatable animals are very unlikely to be adopted, likely due to low survival rate.
 
 ### 3.3. Error Analysis
 
 The ROC and Precision-Recall curves can give us some insight into the model performance. The ROC curve shows the true positive rate and false positive rate (sensitivity and specificity) tradeoff for the logistic regression model. Given the area under the curve (which measures ability to correctly predict class) is 0.86, the model displays some skill in predicting outcomes.
-<br>
-<img src="https://github.com/EricaXia/shelter/raw/master/imgs/LogReg_ROC.png">
-<br>
-The PRC shows the tradeoff between precision (positive predictive value) and recall (sensitivity) at different classification thresholds (classifying an observation as adopted if probability is above a certain value we vary). Since PRCs tend to be more constant and thus more reliable for imbalanced datasets such as ours, we prefer to use this curve for our analysis. The closer the curve is to the upper right corner, the better the prediction is. (A perfect test would have a curve overlapping the upper right corner with both prec/recall equal to 1.)
-<img src="https://github.com/EricaXia/shelter/raw/master/imgs/pr_curve.png">
 
-<br>
+![](https://github.com/EricaXia/shelter/raw/master/imgs/LogReg_ROC.png)
+
+The PRC shows the tradeoff between precision (positive predictive value) and recall (sensitivity) at different classification thresholds (classifying an observation as adopted if probability is above a certain value we vary). Since PRCs tend to be more constant and thus more reliable for imbalanced datasets such as ours, we prefer to use this curve for our analysis. The closer the curve is to the upper right corner, the better the prediction is. (A perfect test would have a curve overlapping the upper right corner with both prec/recall equal to 1.)
+
+![](https://github.com/EricaXia/shelter/raw/master/imgs/pr_curve.png)
+
 
 ## 4. Web App Deployment
 
@@ -167,7 +158,6 @@ The model is contained within a Python script. A web application can create inte
 {{< figure library="true" src="htmlform.png" title="Static HTML Form" lightbox="true" >}}
 </center>
 
-<br>
 
 After creating the static page, we use Flask to host it. First, a conda virtual environment is created to contain all dependencies. Then, we create a Python file called 'script.py' used to run Flask and the model. In the code below, the ValuePredictor function takes in the user's input from the form, converts the input to the correct format, and feeds it to the model (stored in a .pkl file). The function returns the final prediction and predicted probability.
 
@@ -200,7 +190,7 @@ def result():
         return render_template("result.html", prediction = prediction, probability = probability)
 
 ```
-<br>
+
 A separate HTML file displaying the prediction and probability is created to show the user's results. To host the app online, we deploy the app to Heroku, a free plaform that lets us run apps online in the cloud. 
 
 {{< figure library="true" src="heroku.png" lightbox="true" >}}
