@@ -18,18 +18,18 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "90%"
+  description = "Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, Flask, PyTorch, Tensorflow, SQLAlchemy"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
+  description = "Regression, Sampling, Probability distributions"  
 
 [[feature]]
   icon = "terminal"
   icon_pack = "fas"
   name = "Bash (Unix)"
-  description = "50%"
+  description = "File management, Shell scripting"
 
 +++
