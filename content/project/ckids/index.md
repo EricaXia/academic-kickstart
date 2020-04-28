@@ -4,7 +4,7 @@
 title: "Tracking Health and Nutrition Signals from Social Media Data"
 summary: ""
 authors: []
-tags: ['NLP', 'Social Media', 'Web Scraping', 'Data Analysis', 'Modeling']
+tags: ['NLP', 'Social Media', 'Web Scraping', 'Data Analysis', 'Spatial Analysis', 'Modeling']
 categories: []
 date: 2020-03-28T10:42:05-08:00
 
@@ -117,10 +117,12 @@ We start scraping Instagram by specific hashtags (#burger, #foodie, #kale, and m
 ![](https://github.com/EricaXia/academic-kickstart/raw/master/content/project/ckids/loc_march_top20_hashtags.png)
 
 ### 3.2 Spatial Analysis
+
 ![](https://github.com/EricaXia/academic-kickstart/raw/master/content/project/ckids/worldmap.png)
 
 
 ## 4. COVID-19 Effects
+***Under construction: coming Soon***
 
 
 

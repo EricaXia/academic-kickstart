@@ -40,7 +40,6 @@ url_video: ""
 slides: ""
 ---
 
-![](https://github.com/EricaXia/shelter/raw/master/imgs/rescue-animals-and-shelter-pups.jpg)
 ### EDA and Logistic Regression Modeling Project
 ## [**View the app here**](https://animal-shelter-prediction.herokuapp.com)
 

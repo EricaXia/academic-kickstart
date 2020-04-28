@@ -39,10 +39,14 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-
+![](https://github.com/EricaXia/snorkel/raw/master/images/logo.png)
 ### Virus Host Species Extraction from Research Text
 #### University of California, Davis - Epicenter for Disease Dynamics
-![](https://github.com/EricaXia/snorkel/raw/master/images/logo.png)
+
+<br />
+<br />
+
+
 
 In this project, we build a machine learning system (with the help of the [Snorkel](https://www.snorkel.org) framework developed by Stanford DAWN) to extract and identify correct mentions of virus and animal host species relations from academic literature in the context of epidemiological research.
 
