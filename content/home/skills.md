@@ -18,7 +18,7 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, Flask, PyTorch, Tensorflow, SQLAlchemy"
+  description = "Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn, Flask, PyTorch, Tensorflow, SQLite3, SQLAlchemy"
   
 [[feature]]
   icon = "chart-line"

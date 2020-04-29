@@ -74,7 +74,5 @@ Hi there! My name is Erica Xia, and I'm studying for a M.S. in Data Science at U
 
 Creatively, resourcefully, and analytically, I strive to discover and create practical solutions for today's data-driven world. Extracting insights and telling stories with data is my passion. With a flexible, learning-focused mindset, I enjoy mastering new skills and tools in the ever-changing landscape of technology.
 
-My research interests include machine learning, natural language processing, social media analytics, and more. My previous projects are documented on this website.
-
-When I'm not engaged in projects or classes, you might find me playing classical guitar or volunteering at my local animal shelter.
+My research interests include machine learning, natural language processing, social media analytics, and more. When I'm not engaged in projects or classes, you might find me playing classical guitar or volunteering at my local animal shelter.
 
